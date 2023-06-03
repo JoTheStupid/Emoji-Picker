@@ -1,0 +1,29 @@
+{
+  "action": {
+    "default_icon": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "description": "A simple extension that adds an emoji picker to any webpage",
+  "developer": {
+    "name": "JoTheStupid"
+  },
+  "icons": {
+    "128": "icon128.png",
+    "16": "icon16.png",
+    "48": "icon48.png"
+  },
+  "manifest_version": 3,
+  "name": "Emoji Picker",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "update_url": "https://extension-updates.opera.com/api/omaha/update/",
+  "version": "1.0"
+}
